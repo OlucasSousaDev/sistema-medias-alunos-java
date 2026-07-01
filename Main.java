@@ -12,13 +12,13 @@ public class Main {
         String turno = sc.nextLine();
 
         for (int i = 0; i < 40; i++) {
-            System.out.println("-");
+            System.out.print("-");
         }
         System.out.println();
         CalcularMedia.media();
         Verificacao.aprovadoReprovado();
         for (int i = 0; i < 40; i++) {
-            System.out.println("-");
+            System.out.print("-");
         }
         
         sc.close();
